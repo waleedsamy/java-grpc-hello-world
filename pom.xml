@@ -8,7 +8,6 @@
     <url>http://maven.apache.org</url>
     <properties>
         <grpc.version>1.1.2</grpc.version>
-        <!-- CURRENT_GRPC_VERSION -->
     </properties>
     <dependencies>
         <dependency>
@@ -65,6 +64,22 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
             </plugin>
         </plugins>
     </build>

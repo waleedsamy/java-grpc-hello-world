@@ -9,6 +9,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/protobuf/grpc-java" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/target/generated-sources/protobuf/java" isTestSource="false" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target/archive-tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/target/java-grpc-hello-world-1.0-SNAPSHOT" />
+      <excludeFolder url="file://$MODULE_DIR$/target/java-grpc-hello-world-1.0-SNAPSHOT-jar-with-dependencies" />
       <excludeFolder url="file://$MODULE_DIR$/target/maven-archiver" />
       <excludeFolder url="file://$MODULE_DIR$/target/maven-status" />
       <excludeFolder url="file://$MODULE_DIR$/target/protoc-dependencies" />
